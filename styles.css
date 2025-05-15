@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
+
+body {
+  background-color: #243034;
+  font-family: 'Inter', sans-serif;
+}
+
+.navbar-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 48px;
+  width: 100%;
+}
+
+.navbar-nav .nav-link {
+  color: #fff !important;
+  font-weight: 600;
+  font-size: 16px;
+  margin: 0 10px;
+  transition: color 0.2s;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link:hover {
+  color: #00bcd4;
+  font-weight: bold;
+  border-radius: 20px;
+  background: rgba(0, 188, 212, 0.08);
+  padding: 8px 20px;
+}
+
+.navbar-nav .btn-info {
+  width: 160px;
+  padding: 8px 0;
+  font-weight: bold;
+}
+
+.bike-image {
+  max-width: 100%;
+  height: auto;
+}
+
+.btn-info {
+  background: linear-gradient(to right, #00bcd4, #008cba);
+  border: none;
+  border-radius: 20px;
+  width: 455px; 
+  max-width: 100%;
+  text-align: center;
+  font-weight: bold;
+}
+
+.btn-info:hover {
+  background: linear-gradient(to right, #008cba, #00bcd4);
+}
+
+.small {
+  font-size: 12px; 
+  color: #bbb;
+}
